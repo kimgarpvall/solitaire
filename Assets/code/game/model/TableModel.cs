@@ -9,7 +9,7 @@ public class TableModel : IInitialiser, IReadTableState, IWriteTableState
     {
     }
 
-    // IReadTableState
+    // IReadTableState  
     public List<Card> GetState()
     {
         return new List<Card>(mState);
@@ -27,11 +27,9 @@ public class TableModel : IInitialiser, IReadTableState, IWriteTableState
         {
             mState.Add(Card.Copy(c));
         }
-        //mState = new List<Card>(cards);
     }
     public void UpdateState(List<Card> cards)
     {
-        //var copy = new List<Card>(cards);
         foreach(var card in cards)
         {
             UpdateState(card);
