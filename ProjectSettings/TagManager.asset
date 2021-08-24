@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Cards
+  - Stock
+  - Foundation0
+  - Foundation1
+  - Foundation2
+  - Foundation3
+  - Tableu0
+  - Tableu1
+  - Tableu2
+  - Tableu3
+  - Tableu4
+  - Tableu5
+  - Tableu6
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

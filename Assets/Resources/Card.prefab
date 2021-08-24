@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8987615652871790576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8987615652871790579}
+  - component: {fileID: 8987615652871790581}
+  - component: {fileID: 8987615652871790578}
+  m_Layer: 9
+  m_Name: Graphic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8987615652871790579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987615652871790576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8987615653361443260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 118.8, y: 154.44}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8987615652871790581
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987615652871790576}
+  m_CullTransparentMesh: 0
+--- !u!114 &8987615652871790578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987615652871790576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5942381542478621416, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8987615653361443261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8987615653361443260}
+  - component: {fileID: 8987615653361443263}
+  m_Layer: 9
+  m_Name: Card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8987615653361443260
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987615653361443261}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8987615652871790579}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8987615653361443263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987615653361443261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8105f61734c6448fb9cc05f0e2c5aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pCardGraphic: {fileID: 8987615652871790578}
+  pBack: {fileID: -1535244524692844915, guid: 86e6dbbe6598b4be0b9ee61f01e90b58, type: 3}
+  pSpadesAce: {fileID: 5942381542478621416, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesTwo: {fileID: -129039881323564314, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesThree: {fileID: 5722153545295331252, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesFour: {fileID: 7881601550259347632, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesFive: {fileID: 1888704447278586260, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesSix: {fileID: -5707941539380000155, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesSeven: {fileID: -3978956660203194776, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesEight: {fileID: 8971195533914883617, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesNine: {fileID: -8128205494039784886, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesTen: {fileID: -839227416142153083, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesJack: {fileID: 7225193009496767498, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesQueen: {fileID: -3579520602560944142, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pSpadesKing: {fileID: -8400460703064076358, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsAce: {fileID: -7733743142069244911, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsTwo: {fileID: -6595781994077090958, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsThree: {fileID: -7709040272094715751, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsFour: {fileID: 8002119216224854869, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsFive: {fileID: -8597738847345059004, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsSix: {fileID: -1762899490127655764, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsSeven: {fileID: -5483608749270851397, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsEight: {fileID: -299258118475828617, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsNine: {fileID: 1287477335644201787, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsTen: {fileID: 9138478252050595607, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsJack: {fileID: 3498103547527549379, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsQueen: {fileID: -2905558514409974660, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pHeartsKing: {fileID: 1704082628835227883, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsAce: {fileID: 2041332794081832404, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsTwo: {fileID: 5108746832893246654, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsThree: {fileID: 1834547135466191316, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsFour: {fileID: -5892645596774105255, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsFive: {fileID: 2536981172073748883, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsSix: {fileID: -6976312399419530836, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsSeven: {fileID: 8972821770460227603, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsEight: {fileID: -7873867098201456254, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsNine: {fileID: 8546098440679624361, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsTen: {fileID: -6259575037450742600, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsJack: {fileID: -5629551069344004242, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsQueen: {fileID: 5389238820240882804, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pClubsKing: {fileID: 659046735627377108, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsAce: {fileID: 264777423523733670, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsTwo: {fileID: 1643134627994013614, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsThree: {fileID: -7789761996989939200, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsFour: {fileID: 8381280752204152853, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsFive: {fileID: 8365328819036124340, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsSix: {fileID: 1736256657205141101, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsSeven: {fileID: -1554706614796760067, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsEight: {fileID: 6622807587235977615, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsNine: {fileID: 8006835533354258308, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsTen: {fileID: -3518169887475478178, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsJack: {fileID: -1432889945774224704, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsQueen: {fileID: -1639799043813891702, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
+  pDiamondsKing: {fileID: -2272721608834117857, guid: 86e6dbbe6598b4be0b9ee61f01e90b58,
+    type: 3}
