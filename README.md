@@ -1,4 +1,4 @@
-## Klondike solitaire ##
+# Klondike solitaire #
 
   
 ## Overview ##
@@ -9,7 +9,7 @@ The main design pattern used is MVC. The project also utilises the command patte
 
 
 ## Controls ##
--  **Mouse** to drag n drop cards.  
+-  **Mouse** to drag and drop cards.  
 -  **Left/right arrows** to undo/redo.  
 -  **R** to restart.  
 -  **Escape** to close
